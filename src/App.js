@@ -10,7 +10,6 @@ function App() {
   return (
     <>
     <div className="App">
-      <First/>
       <Routes>
       <Route exact path='/first' element={<First />} />
      <Route exact path='/secon' element={<Secon />} />
