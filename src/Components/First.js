@@ -3,6 +3,7 @@ import img from "../base 1 (1).png"
 import pic from "../girl2.png"
 import pic1 from "../girl1.jpg"
 import active from "../active.png"
+import { NavLink } from 'react-router-dom'
 export default function First() {
     return (
         <div className="first">
@@ -23,8 +24,8 @@ export default function First() {
             <div className='symbol'>
                 <img src={active}></img></div>
             <div className='btn'>
-        <a href='./Second'> <button className='btn-1'>Create  an account</button></a>
-                <info>Sign in</info>
+        <NavLink to="/secon"> <button className='btn-1'>Create  an account</button></NavLink>
+                <p className='info'>Sign in</p>
             </div>
         </div>
     )

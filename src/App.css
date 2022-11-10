@@ -64,11 +64,12 @@ button.btn-1 {
   border-radius: 10px;
 }
 
-info {
+.info {
   color: #c3289a;
   position: relative;
-  top: 3em;
-  left: 2em;
+  /* top: 3em; */
+  text-align: end;
+  /* left: 2em; */
   font-size: 20px;
 }
 
@@ -139,7 +140,7 @@ button.sign.up {
     justify-content: center;
     column-gap: 1em;
 }
-    info {
+    .info {
       left: 0em;
 
   }
@@ -161,6 +162,6 @@ button.btn-1 {
   font-size: 14px;
   position: relative;
   margin: 0px 10px;
-  left: 40px;
+  left: 8px;
 }
 }
