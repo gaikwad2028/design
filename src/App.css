@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0px;
+}
+.logo {
+  width: 8em;
+}
+
+
+.images {
+  display: flex;
+  /* column-gap: 1em; */
+  justify-content: center;
+  column-gap: 3em;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+
+img.g-1 {
+  width: 18em;
+  height: 24em;
+}
+
+p.meet {
+  color: #b52186;
+  text-align: center;
+  font-size: 28px;
+  margin: 8px 0px;
+}
+
+p.description {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  width: 21em;
+}
+
+img.g-2 {
+  width: 6em;
+  height: 22em;
+  padding: 19px 0px;
+  border-radius: 33px;
+}
+
+button.btn-1 {
+  padding: 13px 100px;
+  color: pink;
+  font-size: 20px;
+  background-color: #f53798;
+  border: none;
+  border-radius: 10px;
+}
+
+info {
+  color: #c3289a;
+  position: relative;
+  top: 3em;
+  left: 2em;
+  font-size: 20px;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+p.cform {
+  color: white;
+  text-align: center;
+}
+button.sign.up {
+  /* color: pink; */
+  background-color: #b72275;
+  padding: 10px 60px;
+  border: navajowhite;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  row-gap: 1em;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  margin: 5em;
+}
+
+.name::before{
+  content: "4";
+  width: 10%;
+  border:2px solid white;
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  img.g-2 {
+    width: 37px;
+    /* border-radius: 42px; */
+}
+    img.g-1 {
+      width: 14em;
+      height: auto;
+      min-width: 11em;
+  }
+  .images {
+    display: flex;
+    /* column-gap: 1em; */
+    justify-content: center;
+    column-gap: 1em;
+}
+    info {
+      left: 0em;
+
+  }
+
+  button.btn-1 {
+    padding: 12px 68px;
+}
+
+p.description {
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  width: 17em;
+  margin: 0px;
+}
+
+button.btn-1 {
+  padding: 12px 68px;
+  font-size: 14px;
+  position: relative;
+  margin: 0px 10px;
+  left: 40px;
+}
+}
